@@ -2,3 +2,7 @@ http://python.org
 http://ruby-lang.org
 http://golang.org
 http://perl.org
+http://haskell.org
+http://clojure.org
+http://rust-lang.org
+
