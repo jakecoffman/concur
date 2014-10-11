@@ -47,6 +47,6 @@ func (t myTask) Print() {
 	if t.err != nil {
 		fmt.Printf("%30v\t%v\n", t.url, t.err)
 	} else {
-		fmt.Printf("%30v\t%v\t%vs\n", t.url, t.bytesRead, t.duration)
+		fmt.Printf("%30v\t%7v\t%vs\n", t.url, t.bytesRead, t.duration)
 	}
 }
