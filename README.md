@@ -40,13 +40,13 @@ cat input.txt | go run main.go
 You should see output similar to this:
 
 ```
-             http://golang.org	7261	0.141117241s
-               http://perl.org	13873	0.281912011s
-          http://ruby-lang.org	833	  0.6964440630000001s
-            http://clojure.org	35901	0.826794749s
-             http://python.org	45659	0.8274615110000001s
-            http://haskell.org	21424	3.314825824s
-          http://rust-lang.org	9544	4.953110034s
+             http://golang.org     7261 0.136367914s
+               http://perl.org    13873 0.296372999s
+            http://clojure.org    35902 0.769628144s
+             http://python.org    45659 0.771808377s
+          http://ruby-lang.org      833 0.908750531s
+            http://haskell.org    21424 1.005203749s
+          http://rust-lang.org     9544 1.56502838s
 ```
 
 Running it again may produce results in a different order since this is concurrent!
